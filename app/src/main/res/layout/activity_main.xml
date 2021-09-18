@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/RLKisi"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Spinner
+            android:layout_marginLeft="20dp"
+            android:id="@+id/spinnerPersonel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:layout_marginRight="20dp"
+           android:layout_alignParentRight="true"
+            android:id="@+id/spinnerStatu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaç tane dil tazminatı alıyorsunuz?"
+        android:textSize="15sp"
+        android:textColor="@android:color/holo_red_dark"
+        />
+
+    <EditText
+        android:id="@+id/edtTextDilTazminati"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:text="0"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaç tatil günü çalıştınız?"
+        android:textSize="15sp"
+        android:textColor="@android:color/holo_red_dark"
+        />
+
+    <EditText
+        android:id="@+id/edtTextTatilGunleri"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:text="0"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaç saat fazla mesainiz var"
+        android:textSize="15sp"
+        android:textColor="@android:color/holo_red_dark"
+        />
+
+    <EditText
+        android:id="@+id/edtTextMesaiSaati"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:text="0"/>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="X-Ray operatorü yetkinliğiniz var mı?"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="15sp"/>
+
+        <Spinner
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/spinnerXRayYesNo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaç tane noShow yaptınız?"
+        android:textSize="15sp"
+        android:textColor="@android:color/holo_red_dark"
+        />
+
+    <EditText
+        android:id="@+id/edtTextNoShow"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:text="0"
+        />
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaç gün raporunuz var?"
+        android:textSize="15sp"
+        android:textColor="@android:color/holo_red_dark"
+        />
+
+    <EditText
+        android:id="@+id/edtTextRapor"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:text="0"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaç gün ücretsiz izin kullandınız?"
+        android:textSize="15sp"
+        android:textColor="@android:color/holo_red_dark"
+        />
+
+    <EditText
+        android:id="@+id/edtTextUcretsizIzin"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@android:color/holo_red_dark"
+        android:textColor="@android:color/holo_red_dark"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:text="0"/>
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="20dp"
+           android:layout_marginTop="20dp"
+           android:textSize="15sp"
+           android:textColor="@android:color/holo_red_dark"
+           android:text="Almanız gereken maaş: "/>
+
+       <TextView
+           android:id="@+id/txtMaas"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="190dp"
+           android:text="0 TL"
+           android:textColor="@android:color/holo_red_dark"
+           android:textSize="15sp"/>
+
+   </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnHesapla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="Hesapla"/>
+
+
+</LinearLayout>
+
+</ScrollView>

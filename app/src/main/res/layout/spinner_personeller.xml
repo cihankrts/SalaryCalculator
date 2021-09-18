@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spinnerPersonel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textSize="15sp"
+    android:textColor="@android:color/holo_red_dark"
+    android:background="#F0F0F0">
+
+
+
+</TextView>

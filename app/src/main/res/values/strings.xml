@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Maaş Hesaplayıcı</string>
+
+    <string-array name="Personeller">
+        <item> Supervisor </item>
+        <item> Takım Lideri </item>
+        <item> Profiler </item>
+        <item> Airsider </item>
+        <item> Ofis görevlisi </item>
+        <item> Şoför </item>
+    </string-array>
+
+    <string-array name="Statu">
+        <item> Standart Altı </item>
+        <item> Standart </item>
+        <item> Standart Üstü </item>
+        <item> Uzman </item>
+    </string-array>
+
+    <string-array name="YesNo">
+        <item> Evet </item>
+        <item> Hayır </item>
+    </string-array>
+
+
+</resources>
